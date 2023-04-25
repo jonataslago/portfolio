@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root{
-    --font: 'Roboto', sans-serif;;
+    --font-ficha: 'Roboto', sans-serif;
     --font-regular: 400;
     --font-bold: 700;
-    --font-color: #fff;
+    --font-color: #000;
 
     --tag-font-size: 11px;
     --data-font-size: 12px;
     --title-font-size: 16px;
 
     --bg-color: #1c1917;
-    --bg: #030712;
+    --bg: #F6FAFB;
 
     --border-color: #fff;
 
@@ -42,8 +42,8 @@ h1, h2, p, body{
     max-width: 325px;
     /* max-height: 932px; */
     padding: 15px;
-    color: var(--font-color);
-    font-family: var(--font);
+    color: white;
+    font-family: var(--font-ficha);
     border: 1px solid var(--border-color);
     gap: 20px;
 }
@@ -83,7 +83,6 @@ h1, h2, p, body{
     place-content: center;
     position: relative;
     border: 1px solid var(--border-color);
-    
 }
 
 .info .forms{
